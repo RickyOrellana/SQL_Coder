@@ -29,31 +29,35 @@ Diseñar e implementar una base de datos relacional que satisfaga todas las nece
    - Contiene información sobre los productos disponibles para la venta
    - Atributos: ID_PRODUCTO, ID_LINEA_PRODUCTO, ID_SUPPLIER, COSTO_PRODUCTO.
 
-3. **CLIENTES**:
-   - Guarda información sobre los Clientes.
-   - Atributos: ID_CLIENTE, NOMBRE_CLIENTE, EMAIL, CODIGO_POSTAL, ID_PROVINCIA.
+3. **LINK_VENTA_PRODUCTO**:
+   - Concatena la información de facturas y productos.
+   - Atributos: ID_PRODUCTO, ID_VENTA, CANTIDAD.
 
-4. **SUPPLIER**:
+4. **CLIENTES**:
+   - Guarda información sobre los Clientes.
+   - Atributos: ID_CLIENTE, NOMBRE_CLIENTE, EMAIL, ID_UBICACIÓN.
+
+5. **SUPPLIER**:
    - Contiene información sobre los proveedores de los productos.
    - Atributos: ID_SUPPLIER, NOMBRE_SUPPLIER, ID_TIPO_SUPPLIER, ID_ORIGEN.
 
-5. **TIPO SUPPLIER**:
+6. **TIPO SUPPLIER**:
    - Define diferentes tipos de supplier para clasificarlos y poder definir que costos se asocian segun su clasificación.
    - Atributos: ID_TIPO_SUPPLIER, TIPO_SUPPLIER.
 
-6. **TIPO_PRODUCTO**:
+7. **TIPO_PRODUCTO**:
    - Contiene información sobre los tipos de productos.
    - Atributos: ID_TIPO_PRODUCTO, LINEA_PRODUCTO.
 
-7. **ORIGEN**:
+8. **ORIGEN**:
    - Contiene información de costos asociados segun el origen del producto.
    - Atributos: ID_ORIGEN, NOMBRE_ORIGEN, COEFICIENTE_LANDEO.
 
-8. **UBICACIÓN**:
+9. **UBICACIÓN**:
    - Guarda información sobre la ubicación de los clientes.
-   - Atributos: CODIGO_POSTAL, NOMBRE_CIUDAD, COORDENADAS.
+   - Atributos: ID_UBICACION, CODIGO_POSTAL, ID_PROVINCIA, NOMBRE_CIUDAD, COORDENADAS.
 
-8. **PROVINCIAS**:
+10. **PROVINCIAS**:
    - Contiene información sobre las provincias.
    - Atributos: ID_PROVINCIA, NOMBRE_PROVINCIA.
 
