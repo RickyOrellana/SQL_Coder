@@ -1,0 +1,5 @@
+## Creación Base de un dashboard para el calculo de rentabilidad
+
+## Problema:
+
+El equipo comercial solicita un tablero de rentabilidad y cobertura del negocio donde se pueda ver la evolución de la rentabilidad segmentado por linea de producto y las zonas de cobertura en todo el pais. Es por ello que nos enfrentamos ante la necesidad de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas al calculo de rentabilidad y alcance geografico del negocio.
